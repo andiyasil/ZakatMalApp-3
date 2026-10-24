@@ -98,7 +98,7 @@ fun ZakatMalApp() {
     val memenuhiNisab = inputValid && hartaBersih >= nisab
     val wajibZakat = memenuhiNisab && haulTerpenuhi
     val jumlahZakat = if (wajibZakat) {
-        hartaBersih * 0.025
+        hartaBersih * 0.050
     } else {
         0.0
     }
