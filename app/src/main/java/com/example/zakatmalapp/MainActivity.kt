@@ -71,7 +71,7 @@ fun ZakatMalApp() {
         mutableStateListOf<ItemHarta>()
     }
 
-    var hargaEmas by remember { mutableStateOf("15000000") }
+    var hargaEmas by remember { mutableStateOf("1500000") }
     var nominalHarta by remember { mutableStateOf("") }
     var nominalUtang by remember { mutableStateOf("0") }
     var pilihanJenis by remember {
