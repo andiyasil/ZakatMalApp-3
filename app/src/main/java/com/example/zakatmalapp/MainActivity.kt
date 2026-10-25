@@ -111,7 +111,7 @@ fun ZakatMalApp() {
             .padding(horizontal = 18.dp, vertical = 12.dp)
     ) {
         Text(
-            text = "Kalkulator Zakat Mal",
+            text = "Aplikasi Kalkulator Zakat Mal",
             style = MaterialTheme.typography.headlineMedium,
             fontWeight = FontWeight.Bold
         )
