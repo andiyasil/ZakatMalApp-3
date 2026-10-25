@@ -42,7 +42,8 @@ private val jenisHarta = listOf(
     "Barang dagangan",
     "Piutang yang dapat ditagih",
     "Berlian",
-    "Rumah"
+    "Rumah",
+    "tanah"
 )
 
 private data class ItemHarta(
