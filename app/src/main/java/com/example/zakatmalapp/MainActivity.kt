@@ -363,7 +363,7 @@ private fun RingkasanBaris(
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(vertical = 8.dp),
+            .padding(vertical = 12.dp),
         horizontalArrangement = Arrangement.SpaceBetween,
         verticalAlignment = Alignment.CenterVertically
     ) {
@@ -371,7 +371,7 @@ private fun RingkasanBaris(
         Spacer(Modifier.width(8.dp))
         Text(
             nilai,
-            fontWeight = FontWeight.Bold
+            fontWeight = FontWeight.Normal
         )
     }
 }
