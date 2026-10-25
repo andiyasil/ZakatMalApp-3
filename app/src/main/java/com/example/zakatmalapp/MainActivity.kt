@@ -474,7 +474,7 @@ private fun KartuHasil(
                         "Harta bersih tidak valid."
 
                     !memenuhiNisab ->
-                        "Status: Belum mencapai nisab."
+                        "Status: Belum memenuhi nisab."
 
                     !haulTerpenuhi ->
                         "Status: Nisab tercapai, haul belum terpenuhi."
