@@ -88,7 +88,7 @@ fun ZakatMalApp() {
     val utang = parseNominal(nominalUtang)
     val totalHarta = daftarHarta.sumOf { it.nominal }
     val hartaBersih = totalHarta - (utang ?: 0.0)
-    val nisab = (harga ?: 0.0) * 86.0
+    val nisab = (harga ?: 0.0) * 84.0
 
     val inputValid = harga != null &&
             harga > 0.0 &&
