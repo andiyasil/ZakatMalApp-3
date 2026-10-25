@@ -253,7 +253,7 @@ fun ZakatMalApp() {
                 )
 
                 Text(
-                    "Utang jatuh tempo akan dikurangkan dari total harta.",
+                    "Utang yang telah jatuh tempo akan dikurangi dari jumlah keseluruhan harta.",
                     style = MaterialTheme.typography.bodySmall
                 )
             }
