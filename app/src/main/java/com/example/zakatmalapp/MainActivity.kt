@@ -183,7 +183,7 @@ fun ZakatMalApp() {
 
                         when {
                             nominal == null ->
-                                pesan = "Masukkan nilai harta berupa angka positif atau nol."
+                                pesan = "Silakan masukkan nilai harta dalam bentuk angka yang lebih besar dari atau sama dengan nol."
 
                             nominal <= 0.0 ->
                                 pesan = "Nilai harta harus lebih dari nol."
